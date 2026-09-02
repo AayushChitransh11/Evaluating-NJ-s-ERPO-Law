@@ -14,7 +14,6 @@ The outcome variables are defined near the beginning of the file:
 death_col <- "female_firearm_homicides"
 pop_col <- "female_population"
 outcome_label <- "Female firearm homicide rate"
-output_prefix <- "female"
 ```
 
 These settings can be changed to run the same analysis for other outcomes or demographic groups.
@@ -35,8 +34,6 @@ These settings can be changed to run the same analysis for other outcomes or dem
 The analysis uses the following 31 donor states:
 
 Alabama, Alaska, Arizona, Arkansas, Georgia, Idaho, Iowa, Kansas, Kentucky, Louisiana, Maine, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, New Hampshire, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, West Virginia, Wisconsin, and Wyoming.
-
-Only states with complete data for the full study period are retained in the analysis.
 
 ## Analysis
 
